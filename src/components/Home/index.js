@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import games from '../../games';
+import Teams from '../Teams';
 
 class Home extends Component {
 
@@ -15,7 +16,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        Games
+        <Teams games={this.state.games}/>
       </div>
     );
   }

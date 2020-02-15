@@ -1,4 +1,4 @@
-const db = {
+const games = {
   "Atlanta Hawks": [
       {
           'Date': '2009-11-01',
@@ -570,4 +570,4 @@ const db = {
   ]
 }
 
-export default db;
+export default games;
