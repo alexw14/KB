@@ -16,7 +16,22 @@ class TeamPage extends Component {
 
   renderGameData = () => {
     const gameData = this.state.game;
-    return gameData ? <GameStatDisplay gameData={gameData[0]} /> : <div>Loading...</div>;
+    if (gameData) {
+      if (gameData.length > 1) {
+        return (
+          <div>
+            <GameStatDisplay gameData={gameData[0]} />
+            <GameStatDisplay gameData={gameData[1]} />
+          </div>
+        )
+      } else {
+        return (
+          <GameStatDisplay gameData={gameData[0]} />
+        )
+      }
+    } else {
+      return <div>Loading...</div>
+    }
   }
 
   render() {
