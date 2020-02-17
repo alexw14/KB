@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import GameStatDisplay from '../GameStatDisplay';
 import gamesData from '../../games.json';
 
 class TeamPage extends Component {
@@ -13,15 +15,13 @@ class TeamPage extends Component {
   }
 
   renderGameData = () => {
-    const gameData = this.state.game[0];
-    return gameData ?
-      <div>{gameData['TeamName']}</div>
-      : null
+    const gameData = this.state.game;
+    return gameData ? <GameStatDisplay gameData={gameData[0]} /> : <div>Loading...</div>;
   }
 
   render() {
     return (
-      <div>
+      <div className="teampage-container">
         {this.renderGameData()}
       </div>
     );

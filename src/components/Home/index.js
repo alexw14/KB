@@ -25,7 +25,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className="homepage-container">
         {this.renderTeamLogos(this.state.teams)}
       </div>
     );

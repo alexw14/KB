@@ -1,5 +1,21 @@
+/* Home Page */
+.homepage-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Team Page */
+.teampage-container {
+  background-color: #FDB927;
+}
+
+/* UI */
 .team-icon {
   height: 100px;
   width: 100px;
   background-size: cover;
+  margin: 24px;
 }
