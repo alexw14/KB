@@ -10,7 +10,7 @@ const TeamIcon = (props) => {
   }
 
   return (
-    <Link to={`/${team}`}>
+    <Link to={`/team/${team}`}>
       <div className="team-icon" style={style}></div>
     </Link>
   );
