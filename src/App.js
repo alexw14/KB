@@ -7,7 +7,7 @@ import TeamPage from './components/TeamPage';
 function App() {
   return (
     <Switch>
-      <Route exact path="/:team" render={(props) => <TeamPage {...props} />} />
+      <Route path="/:team" render={(props) => <TeamPage {...props} />} />
       <Route exact path='/' render={() => <Home />} />
     </Switch>
   )
