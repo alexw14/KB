@@ -8,7 +8,7 @@ function App() {
   return (
     <Switch>
       <Route path="/team/:team" render={(props) => <TeamPage {...props} />} />
-      <Route exact path="/" render={() => <Home />} />
+      <Route exact path="/KB" render={() => <Home />} />
     </Switch>
   )
 }
