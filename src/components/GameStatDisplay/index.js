@@ -2,12 +2,12 @@ import React from 'react';
 
 const GameStatDisplay = (props) => {
 
-  const { gameData } = props;
+  const { gameData, moreThanOnce } = props;
 
   const renderStat = () => {
     return gameData ?
       <div className="gameStatDisplay-container">
-        <div className="team-name">{gameData.TeamName}</div>
+        <div className="team-name">{!moreThanOnce ? gameData.TeamName : null}</div>
         <div className="game-date">{gameData.Date}</div>
         <div className="main-container">
           <div className="section">
@@ -42,7 +42,7 @@ const GameStatDisplay = (props) => {
           </div>
           <div className="section">
             <div>{gameData['3P']} / {gameData['3PA']}</div>
-            <div>3P</div>
+            <div>3-PT</div>
           </div>
         </div>
       </div>

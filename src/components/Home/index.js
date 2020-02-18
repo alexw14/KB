@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import TeamIcon from '../TeamIcon';
 import gamesData from '../../games.json';
 
-
 class Home extends Component {
 
   state = {
@@ -25,8 +24,10 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="homepage-container">
-        {this.renderTeamLogos(this.state.teams)}
+      <div className="homepage-wrapper">
+        <div className="homepage-container">
+          {this.renderTeamLogos(this.state.teams)}
+        </div>
       </div>
     );
   }

@@ -21,7 +21,7 @@ class TeamPage extends Component {
         return (
           <div>
             <GameStatDisplay gameData={gameData[0]} />
-            <GameStatDisplay gameData={gameData[1]} />
+            <GameStatDisplay gameData={gameData[1]} moreThanOnce={true}/>
           </div>
         )
       } else {
