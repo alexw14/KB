@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/KB/static/css/main.cfcb0a1e.chunk.css",
-    "main.js": "/KB/static/js/main.17421837.chunk.js",
-    "main.js.map": "/KB/static/js/main.17421837.chunk.js.map",
+    "main.css": "/KB/static/css/main.dd507b9e.chunk.css",
+    "main.js": "/KB/static/js/main.7e573263.chunk.js",
+    "main.js.map": "/KB/static/js/main.7e573263.chunk.js.map",
     "runtime-main.js": "/KB/static/js/runtime-main.9391f43a.js",
     "runtime-main.js.map": "/KB/static/js/runtime-main.9391f43a.js.map",
-    "static/js/2.e1354cce.chunk.js": "/KB/static/js/2.e1354cce.chunk.js",
-    "static/js/2.e1354cce.chunk.js.map": "/KB/static/js/2.e1354cce.chunk.js.map",
+    "static/js/2.492fab82.chunk.js": "/KB/static/js/2.492fab82.chunk.js",
+    "static/js/2.492fab82.chunk.js.map": "/KB/static/js/2.492fab82.chunk.js.map",
     "index.html": "/KB/index.html",
-    "precache-manifest.772cfaf7a042e392e2b7018b528da8e6.js": "/KB/precache-manifest.772cfaf7a042e392e2b7018b528da8e6.js",
+    "precache-manifest.12d2d59702f711d732191faf8a5ab77e.js": "/KB/precache-manifest.12d2d59702f711d732191faf8a5ab77e.js",
     "service-worker.js": "/KB/service-worker.js",
-    "static/css/main.cfcb0a1e.chunk.css.map": "/KB/static/css/main.cfcb0a1e.chunk.css.map",
-    "static/js/2.e1354cce.chunk.js.LICENSE.txt": "/KB/static/js/2.e1354cce.chunk.js.LICENSE.txt",
+    "static/css/main.dd507b9e.chunk.css.map": "/KB/static/css/main.dd507b9e.chunk.css.map",
+    "static/js/2.492fab82.chunk.js.LICENSE.txt": "/KB/static/js/2.492fab82.chunk.js.LICENSE.txt",
     "static/media/bobcats.png": "/KB/static/media/bobcats.07f40c1e.png",
     "static/media/bucks.png": "/KB/static/media/bucks.6daa5165.png",
     "static/media/bulls.png": "/KB/static/media/bulls.319eb011.png",
@@ -23,6 +23,7 @@
     "static/media/heat.png": "/KB/static/media/heat.e848e308.png",
     "static/media/hornets.png": "/KB/static/media/hornets.c27c1fdc.png",
     "static/media/jazz.png": "/KB/static/media/jazz.cffb2e54.png",
+    "static/media/kbmain.jpg": "/KB/static/media/kbmain.dfbc0c65.jpg",
     "static/media/kings.png": "/KB/static/media/kings.989bba2e.png",
     "static/media/knicks.png": "/KB/static/media/knicks.a35202fc.png",
     "static/media/lakers.png": "/KB/static/media/lakers.f27bcbfb.png",
@@ -46,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9391f43a.js",
-    "static/js/2.e1354cce.chunk.js",
-    "static/css/main.cfcb0a1e.chunk.css",
-    "static/js/main.17421837.chunk.js"
+    "static/js/2.492fab82.chunk.js",
+    "static/css/main.dd507b9e.chunk.css",
+    "static/js/main.7e573263.chunk.js"
   ]
 }
