@@ -3,6 +3,12 @@
 
 } */
 
+.featured-main {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
 .homepage-container {
   display: flex;
   flex-direction: row;

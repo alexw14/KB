@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Featured from './Featured';
 import TeamIcon from '../TeamIcon';
 import gamesData from '../../games.json';
 
@@ -25,6 +26,7 @@ class Home extends Component {
   render() {
     return (
       <div className="homepage-wrapper">
+        <Featured />
         <div className="homepage-container">
           {this.renderTeamLogos(this.state.teams)}
         </div>
