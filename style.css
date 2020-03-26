@@ -1,0 +1,15 @@
+body {
+  margin: 0 auto;
+}
+
+.hero {
+  height: 800px;
+  width: 100%;
+}
+
+.hero.kb-main {
+  background-image: url('./images/kbmain.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
